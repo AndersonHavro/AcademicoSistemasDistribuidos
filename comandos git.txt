@@ -1,0 +1,40 @@
+Ggit init  ----------------- inicia o git
+git config ---------------- global user.name "Anderson Havro"
+git config ---------------- global user.email "andersonhavro@gmail.com"
+git status ---------------- verifica o estado do repositorio
+
+git add . ----------------- prepara o arquivo para commitar
+git commit -m ------------- commita
+
+git log ------------------- mostra todos os commits
+git log --oneline --------- mostra o resumo dos comites
+
+:q! ----------------------- sai do editor VIM para reiniciar o commit
+
+git clean -df ------------- volta para o ultimo commit salvo
+git checkout -- . --------- confirma a volta
+git reset --soft head~1---- remove o ultimo commit mantendo as ultimas modificacoes
+git reset --hard head~1---- (CUIDADO) remove por completo o ultimo commit
+git checkout =>codcommit<=  Verifica a versao do commit informado
+git checout =>branch<= ---- Volta para a ultima versao branch(master)
+  
+GITRUB
+==== git remote add origin https://github.com/AndersonHavro/gittesteInicial.git
+      LINKA O REPOSITORIO GIT PARA O REP GITRUB================
+==== git remote set-url origin https://github.com/AndersonHavro/gittesteInicial.git
+      LINKA O REPOSITORIO GIT JA LINKADO EM UM PROJETO PARA OUTRO REP GITRUB====
+==== git push -u origin master 
+      Sobe todos os arquivos da pasta linkada para o GITHUB
+      (origin) - é o nome do arquivo dado
+      (master) - é o nome da versao que vc está trabalhando
+==== git push
+      Atualiza as modificações feitas para o GITHUB
+==== git clone <url do projeto no GITHUB>
+      Copia o projeto no GITHUB para a pasta especificada
+==== git pull origin master
+      Atualiza o seu ultimo projeto salvo na sua maquina com os ultimos commits dados no Github
+      (origin) - é o nome do arquivo dado
+      (master) - é o nome da versao que vc está trabalhando
+
+
+
